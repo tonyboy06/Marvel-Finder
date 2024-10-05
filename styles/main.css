@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #222643;
+    color: white;
+}
+
+.container  {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.navbar .logo img {
+    background-color: #bb1c20;
+    padding: 5px;
+    width: 250px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 1000
+
+.afacad-flux-<uniquifier> {
+font-family: "Afacad Flux", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+    "slnt" 0;
+} */
+
+/* .marvel-regular {
+font-family: "Marvel", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.marvel-bold {
+font-family: "Marvel", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.marvel-regular-italic {
+font-family: "Marvel", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.marvel-bold-italic {
+font-family: "Marvel", sans-serif;
+font-weight: 700;
+font-style: italic;
+} */
+  
+
