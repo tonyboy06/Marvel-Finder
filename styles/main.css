@@ -5,13 +5,16 @@
 }
 
 body {
-    background-color: #222643;
+    /* background-color: #222643; */
+    background-image: linear-gradient(120deg, #222643, rgb(51, 51, 51));
     color: white;
+    overflow: hidden;
 }
 
 .container  {
     max-width: 1200px;
     margin: auto;
+
 }
 
 .navbar {
@@ -27,7 +30,7 @@ body {
 .navbar .logo img {
     background-color: #bb1c20;
     padding: 5px;
-    width: 250px;
+    width: 225px;
 }
 
 .navbar-nav {
@@ -37,7 +40,7 @@ body {
 .nav-item {
     list-style-type: none;
     margin-right: 30px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nav-link {
@@ -45,6 +48,85 @@ body {
     color: white;
 }
 
+.main {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: "Afacad Flux", sans-serif;
+
+}
+
+.left-side-landing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto 0 auto;
+
+}
+
+.right-side-landing {
+    height: 100%;
+}
+
+.marvel-studios-logo {
+    margin: auto auto 25px auto;
+    width: 90px;
+    background-color: white;
+}
+
+.spiderman-header-logo {
+    margin: auto auto 25px auto;
+    width: 500px;
+}
+
+.no-way-home-white2 {
+    margin: auto auto 25px auto;
+    width: 300px;
+}
+
+.header-description {
+    max-width: 500px;
+    font-size: 18px;
+    text-align: justify;
+    margin: auto auto 30px auto;
+
+}
+
+.search-description {
+    text-align: left;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.search-item {
+    margin-right: 40px;
+}
+
+.search-item i {
+    border: 1px solid white;
+    padding: 9px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 10px;
+}
+
+.search-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.info {
+    border: 1px solid white;
+    padding: 9px 18px;
+    border-radius: 20px;
+}
+
+.spidey-hoodie {
+    width: 95vh;
+}
 
 /* .anton-regular {
     font-family: "Anton", sans-serif;
