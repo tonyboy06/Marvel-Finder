@@ -1,0 +1,29 @@
+.input-container {
+    max-width: 800px;
+    margin: 40px auto;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 1em;
+}
+
+.input {
+    padding: 8px 16px;
+    background: #3a3939;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.button {
+    background-color: #e01a38;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.display-container {
+    padding: 1em;
+}
