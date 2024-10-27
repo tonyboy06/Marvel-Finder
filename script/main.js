@@ -3,7 +3,9 @@ let button = document.getElementById("submit-button");
 let showContainer = document.getElementById("show-container");
 let listContainer = document.querySelector(".list");
 
-// const md5 = require('md5');
+import md5 from '../node_modules/crypt/crypt.js';
+const valuee = md5("your_string_to_hash");
+console.log(valuee);
 const ts = Date.now().toString();
 console.log(ts);
 const publicKey = 'ac8dbe9a94779d909ed8e13500fd1e6d';      // Replace with your public API key
