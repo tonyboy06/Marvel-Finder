@@ -2,13 +2,15 @@
   font-family: "Afacad Flux", sans-serif;
   text-align: center;
   font-weight: 400;
+  font-size: 28px;
+  margin-top: 20px;
 }
 
 .api-container {
   background-color: #171821;
   width: 90%;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 3em 2em;
   border-radius: 1em;
   margin-top: 10px;
@@ -80,4 +82,10 @@ button {
 .autocomplete-items:hover {
   background-color: #ddd;
   color: #171821;
+}
+
+@media only screen and (max-width: 600px) { 
+  .find {
+    font-size: 18px;
+  }
 }
