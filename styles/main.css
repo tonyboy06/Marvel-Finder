@@ -6,7 +6,7 @@
 
 body {
     /* background-color: #222643; */
-    background-image: linear-gradient(120deg, #222643, rgb(51, 51, 51));
+    background-color: #222643;
     color: white;
     overflow:visible;
 }
